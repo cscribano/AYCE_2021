@@ -1,0 +1,42 @@
+# General options
+BASE_OPTS:
+  MODEL: Extended_LTNL
+  EPOCHS: 820
+  N_WORKERS: 12
+  DEVICE: cuda
+  CK_EPOCHS_STEP: 5
+  VAL_EPOCHS_STEP: 5
+
+# Dataset options
+DATA_OPTS:
+  DATASET: /data2/AIC21_Track5_NL_Retrieval
+  LOG_DIR: /data/cscriban
+  BATCH_SIZE: 48 # X2 GPUS!
+  TRAIN_ALL: True
+
+# TRAINING OPTIONS
+TRAIN_OPTS:
+  LR: 0.000035
+  LR_STEPS: {450: 0.000025, 650: 0.000015}
+  OPTIMIZER: Adam
+  DECAY: 0.0005 # 5e-4
+  SCHEDULER: None
+  CLIP_VALUE: 100
+
+# Model specific options
+MODEL_OPTS:
+  BACKBONE: resnet18
+  DISTANCE: euclid
+
+  OUT_DIM: 256
+  INPUT_WIDTH: 480
+  INPUT_HEIGHT: 270
+  MAX_SEQ_LEN: 1
+
+  # Ego crop size
+  CROP_HEIGHT: 90
+  CROP_WIDTH: 110
+
+  # If False use pre computed bert embeddings
+  COMPUTE_NL_EMBS: False
+  SEQ_POS_ENCODE: True

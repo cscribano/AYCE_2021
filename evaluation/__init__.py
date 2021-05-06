@@ -1,0 +1,1 @@
+from evaluation.inference import inference_on_test

@@ -1,0 +1,25 @@
+### Pycharm stuffs
+.idea/
+*__pycache__/
+
+### Pytorch model weights
+*.pth
+
+### images
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.avi
+*.pth
+
+### logs
+/log/*
+
+### weights
+/weights/*.pth
+
+## Pre computed Detections
+/data/augmented_test.json
+/data/augmented_train.json
