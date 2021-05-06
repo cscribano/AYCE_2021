@@ -5,15 +5,6 @@
 ### Pytorch model weights
 *.pth
 
-### images
-*.jpg
-*.jpeg
-*.png
-*.tif
-*.tiff
-*.avi
-*.pth
-
 ### logs
 /log/*
 
@@ -23,3 +14,6 @@
 ## Pre computed Detections
 /data/augmented_test.json
 /data/augmented_train.json
+
+## Pre trained nlp
+/nlp/bert_ft_experimental/*
