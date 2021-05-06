@@ -82,7 +82,7 @@ Now you can execute the *Precomputed Language embeddings* procedure above.
 
 ### Visual Branch
 
-The best performing model (MRR=) has been trained on two Nvidia A100 GPUs, other configurations have not been tested.
+The best performing model (**MRR=0.1078**) has been trained on two Nvidia A100 GPUs, other hardware configurations have not been tested.
 
 Edit the configuration file `./conf/experiments/best.yaml`, the `DATASET` option must correspond to the absolute path to the extracted dataset, where you must also have the precomputed data.\
 Additionally the `LOG_DIR` option can be set to where you want to save training logs and checkpoints.
@@ -106,8 +106,8 @@ The output is saved to `<LOG_DIR>/AYCE_2021/best/test_result.json`
 
 ### Pretrained weights
 
-The pretrained weights for the best model are available for [Download]().
-Extract the provided archive and copy the `trainin.ck` file to `<LOG_DIR>/AYCE_2021/best/`, then perform the evaluation procedure.
+The pretrained weights for the best model are available for [Download](https://drive.google.com/drive/folders/1Lo10Nrv4XMq8zPXKv_kFEyjgROMO-PW6?usp=sharing).
+Extract the provided archive `best.zip` and copy the `trainin.ck` file to `<LOG_DIR>/AYCE_2021/best/`, then perform the evaluation procedure.
 
 
 ## Reference
