@@ -10,8 +10,8 @@ This work is our entry for the [5th AI City Challenge](https://www.aicitychallen
 ## Prerequisites
 
 ### Environment
-* Create a conda environment using the provided `environment.yml` as described [HERE](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-* To create an *identical* environment use `spec-file.txt`
+* Create a conda environment using the provided `docs/environment.yml` as described [HERE](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+* To create an *identical* environment use `docs/spec-file.txt`
   ```
   conda create --name myenv --file spec-file.txt
   ```
