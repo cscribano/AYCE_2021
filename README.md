@@ -111,4 +111,13 @@ Extract the provided archive `best.zip` and copy the `trainin.ck` file to `<LOG_
 
 
 ## Reference
-TBD;
+```
+@InProceedings{Scribano_2021_CVPR,
+    author    = {Scribano, Carmelo and Sapienza, Davide and Franchini, Giorgia and Verucchi, Micaela and Bertogna, Marko},
+    title     = {All You Can Embed: Natural Language Based Vehicle Retrieval With Spatio-Temporal Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {4253-4262}
+}
+```
