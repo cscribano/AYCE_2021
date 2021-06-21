@@ -4,6 +4,8 @@ Public code for _"All You Can Embed: Natural Language based Vehicle Retrieval wi
 Spatio-Temporal Transformers"_, accepted as CVPR 2021 Workshop.\
 This work is our entry for the [5th AI City Challenge](https://www.aicitychallenge.org/), Track 5: Natural-Language based Vehicle Retrieval.
 
+[[paper]](./docs/40-paper.pdf)   [[slides]](./docs/40-slides.pdf)    [[poster]](./docs/40-poster.pdf)    [[arXiv]](http://arxiv.org/abs/2106.10153)
+
 ## Model
 ![](./docs/architecture.png)
 
